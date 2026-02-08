@@ -5,4 +5,4 @@ cmds = ["bun install"]
 cmds = ["cd apps/web && bun run build"]
 
 [start]
-cmd = "cd apps/web && node .output/server/index.mjs"
+cmd = "cd apps/web && node dist/server/server.js"
